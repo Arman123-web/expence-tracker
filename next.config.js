@@ -1,12 +1,9 @@
-// next.config.js
-import { NextConfig } from "next";
-
-/** @type {NextConfig} */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  // You can add your custom Next.js configs here if needed
+  // Add any custom Next.js configs here
   experimental: {
-    turbo: false  // Disable Turbopack
-  }
+    turbo: false, // disable Turbopack
+  },
 };
 
 export default nextConfig;
